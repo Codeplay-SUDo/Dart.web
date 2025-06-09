@@ -1,0 +1,225 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* ANNOUNCEMENT SECTION START*/
+header .announcement {
+    background-color: #121A26;
+    color: #fff;
+    padding: 12px 0px 12px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* styling the link in announcement*/
+header .announcement a {
+    color: #FFB300;
+    text-decoration: none;
+}
+
+/* add hover to the link in announcement */
+header .announcement a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+/* ANNOUNCEMENT SECTION END */
+
+/*  NAVIGATION START */
+nav {
+    background-color: #1C2843;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+
+}
+/* adding styles to nav-links */
+nav .nav-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .nav-links a {
+    color: #DADCE0;
+    font-family: "PGoogle sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* nav-links hover effect */
+nav .nav-links a:hover {
+    color: #274ea3;
+}
+
+/* adding videos animation and styles */
+.video-animation {
+    width: 100%;
+    height: auto;
+    background-color: #121A26;
+    text-align: center;
+}
+
+/* video styles */
+.video-animation video {
+    width: 60%;
+}
+
+/* hero styles */
+.hero {
+    background-color: #121A26;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* styling hero text */
+.hero > .hero-text0 {
+    font-family: "Google sans", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+/* styling watch video link */
+.yt-vid a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    color: #40C4FF;
+}
+
+/* watch video hover */
+.yt-vid a:hover {
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+.hero > .materials-icons img {
+    width: 100px;
+    height: auto;
+}
+
+/* adding hero text1 styles */
+.hero-text1 p {
+    font-family: "Google sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #82878C;
+    text-align: center;
+}
+
+.hero-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px 0px;
+}
+
+.hero-text1 a {
+    display: flex;
+    align-items: center;
+}
+
+/* dart features section start */
+.dart-features {
+    display: flex;;
+    justify-content: center;
+    gap: 100px;
+    padding: 0px 50px 0px 50px;
+    background-color: #0D1520;
+}
+
+.features {
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+}
+
+.item3 {
+    width: 340px;
+}
+/* styling the dart features images */
+.features img {
+    width: 70px;
+}
+
+.dart-features > .features h2 {
+    font-family: "Google sans", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.dart-features > .features p {
+    font-family: "Google sans" sans-serif;
+    font-size: 16px;
+    color: #82878C;
+    padding-top: 20px;
+}
+/* features section end */
+
+/* property section start*/
+#property {
+    display: flex;
+    justify-content: right;
+}
+
+/* styling the img */
+.prop-item2 img {
+    width: 700px;
+}
+
+.prop-item1 img {
+   width: 70px; 
+}
+
+/* styling item1 */
+.prop-item1 {
+    align-self: center;
+}
+
+/* styling the p text */
+.prop-item1 p {
+    font-family: "Google sans", sans-serif;
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 450px;
+    margin-right: 50px;
+}
+
+/* hover effect */
+.prop-item1 p:hover {
+    color: #1967D2;
+}
+
+
+/* link styles */
+ .prop-item1 a {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+.prop-item1 a:hover {
+    color: #1967D2;
+}
+
+.property h2 {
+    font-family: "Google sans", sans-serif;
+    font-size: 43px;
+    line-height: 53px;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+/*  */
