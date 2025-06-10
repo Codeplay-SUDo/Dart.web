@@ -171,22 +171,34 @@ nav .nav-links a:hover {
 /* property section start*/
 #property {
     display: flex;
-    justify-content: ;
-
+    width: 100%;
 }
+
 
 /* styling the img */
 .prop-item2 img {
-    width: 700px;
+    width: 815px;
 }
 
 .prop-item1 img {
    width: 70px; 
+   margin-bottom: 20px;
+}
+
+/* styling the image container background */
+.prop-item2 {
+    width: 65%;
+    background-color: #0D1520;
+    height: auto;
+    margin-left: 20px;
+    
 }
 
 /* styling item1 */
 .prop-item1 {
     align-self: center;
+    width: 35%;
+    padding: 0px 10px 0px 40px;
 }
 
 /* styling the p text */
@@ -196,7 +208,7 @@ nav .nav-links a:hover {
     color: #4A4A4A;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 250px;
+    /* width: 250px; */
 }
 
 /* hover effect */
@@ -221,5 +233,7 @@ nav .nav-links a:hover {
     line-height: 53px;
     color: #4a4a4a;
     font-weight: 400;
+    margin-bottom: 20px;
+
 }
 /*  */
