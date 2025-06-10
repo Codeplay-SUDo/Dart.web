@@ -171,7 +171,8 @@ nav .nav-links a:hover {
 /* property section start*/
 #property {
     display: flex;
-    justify-content: right;
+    justify-content: ;
+
 }
 
 /* styling the img */
@@ -195,8 +196,7 @@ nav .nav-links a:hover {
     color: #4A4A4A;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 450px;
-    margin-right: 50px;
+    width: 250px;
 }
 
 /* hover effect */
