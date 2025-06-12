@@ -178,6 +178,7 @@ nav .nav-links a:hover {
 /* styling the img */
 .prop-item2 img {
     width: 815px;
+    height: 560px;
 }
 
 .prop-item1 img {
@@ -234,6 +235,141 @@ nav .nav-links a:hover {
     color: #4a4a4a;
     font-weight: 400;
     margin-bottom: 20px;
-
 }
-/*  */
+/* property section ends */
+
+/* productive dev section start */
+
+/* section styles */
+#productive-dev {
+    width: 100%;
+    display: flex;
+}
+
+/* right productive development text styles */
+
+/* right image */
+/* specified for the right-pd */
+.right-pd {
+    width: 35%;
+    align-self: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.right-pd img {
+    width: 70px;
+}
+
+
+/* pd h2 styles */
+.right-pd h2 {
+    font-family: "Google sans", sans-serif;
+    font-size: 43px;
+    line-height: 53px;
+    color: #4a4a4a;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.right-pd p {
+    font-family: "Google sans", sans-serif;
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.right-pd a {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+/* adding hover effect to the text */
+.right-pd a:hover{
+    color: #1967D2;
+}
+
+.right-pd p:hover{
+    color: #1967D2;
+}
+
+/* left-pd */
+.left-pd {
+    background-color: #0D1520;
+    width: 65%;
+    height: 50%;
+}
+
+.left-pd img {
+    width: 815px;
+    height: 560px;
+}
+/* productive dev section end */
+
+
+/* fast on all platform section start */
+
+/* section styles */
+#fast-platform {
+    width: 100%;
+    display: flex;
+}
+
+/* fast on all platforms text styles */
+
+/* top image icon */
+/* specified for the left-fp */
+.left-fp {
+    width: 35%;
+    align-self: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.left-fp img {
+    width: 70px;
+}
+
+
+/* fp h2 styles */
+.left-fp h2 {
+    font-family: "Google sans", sans-serif;
+    font-size: 43px;
+    line-height: 53px;
+    color: #4a4a4a;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.left-fp p {
+    font-family: "Google sans", sans-serif;
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left-fp a {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+/* adding hover effect to the text */
+.left-fp a:hover{
+    color: #1967D2;
+}
+
+.left-fp p:hover{
+    color: #1967D2;
+}
+
+/* left-pd */
+.right-fp {
+    background-color: #0D1520;
+    width: 65%;
+    height: 50%;
+}
+
+.right-fp img {
+    width: 815px;
+    height: 560px;
+}
